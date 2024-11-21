@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".Start2048">
+
+    <LinearLayout
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#ED9A22"
+            android:gravity="center"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#CC9894"
+            android:backgroundTint="#DCCBBA"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#D13131"
+            android:backgroundTint="#FFC107"
+            android:gravity="center"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#8C3131"
+            android:backgroundTint="#F44336"
+            android:gravity="center"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Games"
+        android:textColor="#000000"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/Start_Button"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:text="게임 시작"
+        android:background="@color/startcolor"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Ranking_Button"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/startcolor"
+        android:text="랭킹"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/GoBack_Button"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/startcolor"
+        android:text="돌아가기"
+        android:textSize="24sp" />
+
+</LinearLayout>

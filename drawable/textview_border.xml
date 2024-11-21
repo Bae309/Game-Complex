@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent"/>
+    <stroke
+        android:width="2dp"
+        android:color="#BDBDBD"/> <!-- 윤곽선 색상 및 두께 설정 -->
+    <corners android:radius="0dp"/> <!-- 모서리 둥글게 설정 (선택 사항) -->
+</shape>

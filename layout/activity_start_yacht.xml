@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EAEA"
+    android:backgroundTint="#A2BDCA"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".StartYacht">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:backgroundTint="#434343"
+        android:fitsSystemWindows="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#E1D6D6"
+            android:backgroundTint="#EAE0E0"
+            app:cardCornerRadius="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:backgroundTint="#434343"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="YACHT"
+                    android:textColor="#FDFDFD"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="253dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="100dp"
+                    app:srcCompat="@drawable/d6" />
+
+                <Button
+                    android:id="@+id/btnstart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="320dp"
+                    android:layout_marginRight="70dp"
+                    android:backgroundTint="#D57676"
+                    android:text="게임 시작"
+                    android:textSize="30dp"
+
+                    app:cornerRadius="10dp" />
+
+
+                <Button
+                    android:id="@+id/btnrank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_marginRight="70dp"
+
+                    android:backgroundTint="#D57676"
+                    android:text="랭킹"
+                    android:textSize="30dp"
+                    app:cornerRadius="10dp" />
+
+                <Button
+                    android:id="@+id/btnend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="520dp"
+                    android:layout_marginRight="70dp"
+                    android:backgroundTint="#D57676"
+                    android:text="돌아가기"
+                    android:textSize="30dp"
+                    app:cornerRadius="10dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
